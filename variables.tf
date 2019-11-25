@@ -5,7 +5,7 @@ variable "tags" {
 }
 
 variable "s3_bucket_names" {
-  type    = list(string)
-  default = []
+  type        = list(string)
+  default     = []
   description = "List of buckets to be created"
 }
